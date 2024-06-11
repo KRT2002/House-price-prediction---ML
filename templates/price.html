@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>House Price Prediction</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='price.css') }}">
+    </head>
+<body>
+    <h1>House Price Prediction</h1>
+    {% if result is not none %}
+        <h2>Predicted Price</h2>
+        <p>{{ result }}</p>
+        <p><a href="/">Return to Homepage</a></p>
+    {% endif %}
+</body>
+</html>

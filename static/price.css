@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background color */
+    color: #fff; /* Text color to contrast with the black background */
+    text-align: center;
+}
+h1 {
+    color: #fff; /* Text color for headings */
+    margin-top: 300px; /* Add margin to top */
+}
+h2 {
+    color: #fff; /* Text color for headings */
+    margin-top: 10px; /* Add margin to top */
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Dark gray background color for the container */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add margin to top */
+}
+p {
+    font-size: 18px;
+    color: #fff; /* Text color for paragraphs */
+    margin-top: 10px; /* Add margin to top */
+}
+
+
